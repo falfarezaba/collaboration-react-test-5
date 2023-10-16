@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Nelan from "./pages/Nelan";
+import Helmi from "./pages/Helmi";
 
 function App() {
     return (
@@ -8,6 +9,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/nelan" element={<Nelan />} />
+                <Route path="/helmi" element={<Helmi/>} />
             </Routes>
         </BrowserRouter>
     );
