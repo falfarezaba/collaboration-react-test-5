@@ -4,6 +4,7 @@ import Reza from "./pages/Reza";
 import Nelan from "./pages/Nelan";
 import Dwi from "./pages/Dwi";
 import Billy from "./pages/Billy";
+import Helmi from "./pages/Helmi";
 
 function App() {
   return (
@@ -12,8 +13,9 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/reza" element={<Reza />} />
         <Route path="/nelan" element={<Nelan />} />
+        <Route path="/helmi" element={<Helmi />} />
         <Route path="/billy" element={<Billy />} />
-        <Route path="/billy" element={<Dwi />} />
+        <Route path="/dwi" element={<Dwi />} />
       </Routes>
     </BrowserRouter>
   );
