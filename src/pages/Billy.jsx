@@ -6,12 +6,9 @@ const Billy = () => {
       <Card style={{ width: "18rem" }}>
         <Card.Img variant="top" src="holder.js/100px180" alt="tesss" />
         <Card.Body>
-          <Card.Title>Tes</Card.Title>
-          <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card content.
-          </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
+          <Card.Title>Billy</Card.Title>
+          <Card.Text>test baruuu</Card.Text>
+          <Button variant="primary">Gas</Button>
         </Card.Body>
       </Card>
     </Container>
